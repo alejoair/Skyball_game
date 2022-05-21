@@ -1,13 +1,11 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://assets/models/blocks.meshlib" type="MeshLibrary" id=1]
 [ext_resource path="res://player/Ball.tscn" type="PackedScene" id=2]
 [ext_resource path="res://environment/DeathZone.gd" type="Script" id=3]
 [ext_resource path="res://environment/VictoryZone.gd" type="Script" id=4]
-[ext_resource path="res://assets/086_hdrmaps_com_free.exr" type="Texture" id=5]
 
 [sub_resource type="PanoramaSky" id=4]
-panorama = ExtResource( 5 )
 
 [sub_resource type="Environment" id=5]
 background_mode = 2
